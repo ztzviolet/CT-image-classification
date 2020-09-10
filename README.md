@@ -7,7 +7,9 @@ dataset: https://www.kaggle.com/luisblanche/covidct
 
 data_preprocessing.py: split the image data into training/validation/test sets; only executed once
 
-Folder looks like:
+data_classification.py: Build a CNN to extract features and then do classification
+
+# Working folder looks like:
 
 -data_classification.py
 
