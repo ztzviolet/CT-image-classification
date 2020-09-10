@@ -4,11 +4,11 @@ Created on Fri Apr 10 16:05:39 2020
 
 @author: leafblade
 """
-#simple sequential CNN, following tut.py
+#simple sequential CNN, following data_preprocessing.py
 #
-import numpy as np # linear algebra
+import numpy as np
 import random
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import pandas as pd
 import os
 import tensorflow as tf
 
@@ -126,4 +126,4 @@ y_pred =y_pred.astype(int)
 print('Confusion Matrix')
 print(confusion_matrix(vali_data_gen.classes, y_pred))
 
-#83.8
+#Precision = Recall = 83.8%
