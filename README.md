@@ -9,39 +9,6 @@ data_preprocessing.py: split the image data into training/validation/test sets; 
 
 data_classification.py: Build a CNN to extract features and then do classification
 
-## Working folder looks like:
+Working folder looks like:
 
--data_classification.py
-
--data_preprocessing.py
-
--train
-
------CT_COVID
-
----------245 images
-
------CT_NonCOVID
-
----------279 images
-
--vali
-
------CT_COVID
-
----------52 images
-
------CT_NonCOVID
-
----------59 images
-
--test
-
------CT_COVID
-
----------52 images
-
------CT_NonCOVID
-
----------59 images
-
+![Image of folder](https://github.com/ztzviolet/CT-image-classification/blob/master/folder.png)
