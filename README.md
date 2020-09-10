@@ -9,7 +9,7 @@ data_preprocessing.py: split the image data into training/validation/test sets; 
 
 data_classification.py: Build a CNN to extract features and then do classification
 
-# Working folder looks like:
+## Working folder looks like:
 
 -data_classification.py
 
