@@ -11,3 +11,4 @@ data_classification.py: Build a CNN to extract features and then do classificati
 
 Working folder looks like:
 
+![Image of folders](https://github.com/ztzviolet/CT-image-classification/blob/master/folders.png)
